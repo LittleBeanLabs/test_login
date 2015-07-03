@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF8CBA761B465BFD00AA86D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CBA751B465BFD00AA86D4 /* AppDelegate.swift */; };
+		CF8CBA781B465BFD00AA86D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CBA771B465BFD00AA86D4 /* ViewController.swift */; };
+		CF8CBA7B1B465BFD00AA86D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8CBA791B465BFD00AA86D4 /* Main.storyboard */; };
+		CF8CBA7D1B465BFD00AA86D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8CBA7C1B465BFD00AA86D4 /* Assets.xcassets */; };
+		CF8CBA8B1B465BFD00AA86D4 /* KomameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CBA8A1B465BFD00AA86D4 /* KomameTests.swift */; };
+		CF8CBA961B465BFD00AA86D4 /* KomameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CBA951B465BFD00AA86D4 /* KomameUITests.swift */; };
+		CF8CBAA61B466CF200AA86D4 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8CBAA51B466CF200AA86D4 /* FBSDKCoreKit.framework */; };
+		CF8CBAAC1B466F2600AA86D4 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8CBAAB1B466F2600AA86D4 /* FBSDKLoginKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF8CBA871B465BFD00AA86D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8CBA6A1B465BFD00AA86D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF8CBA711B465BFD00AA86D4;
+			remoteInfo = Komame;
+		};
+		CF8CBA921B465BFD00AA86D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8CBA6A1B465BFD00AA86D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF8CBA711B465BFD00AA86D4;
+			remoteInfo = Komame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF8CBA721B465BFD00AA86D4 /* Komame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Komame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8CBA751B465BFD00AA86D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF8CBA771B465BFD00AA86D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF8CBA7A1B465BFD00AA86D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF8CBA7C1B465BFD00AA86D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF8CBA811B465BFD00AA86D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8CBA861B465BFD00AA86D4 /* KomameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KomameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8CBA8A1B465BFD00AA86D4 /* KomameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KomameTests.swift; sourceTree = "<group>"; };
+		CF8CBA8C1B465BFD00AA86D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8CBA911B465BFD00AA86D4 /* KomameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KomameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8CBA951B465BFD00AA86D4 /* KomameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KomameUITests.swift; sourceTree = "<group>"; };
+		CF8CBA971B465BFD00AA86D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8CBAA51B466CF200AA86D4 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Komame/Frameworks/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		CF8CBAA81B466E0400AA86D4 /* Komame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Komame-Bridging-Header.h"; sourceTree = "<group>"; };
+		CF8CBAAB1B466F2600AA86D4 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Komame/Frameworks/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		CFF621031B4673250090B7F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF8CBA6F1B465BFD00AA86D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8CBAAC1B466F2600AA86D4 /* FBSDKLoginKit.framework in Frameworks */,
+				CF8CBAA61B466CF200AA86D4 /* FBSDKCoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8CBA831B465BFD00AA86D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8CBA8E1B465BFD00AA86D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF8CBA691B465BFD00AA86D4 = {
+			isa = PBXGroup;
+			children = (
+				CF8CBA741B465BFD00AA86D4 /* Komame */,
+				CF8CBA891B465BFD00AA86D4 /* KomameTests */,
+				CF8CBA941B465BFD00AA86D4 /* KomameUITests */,
+				CF8CBAA71B466D4E00AA86D4 /* Frameworks */,
+				CF8CBA731B465BFD00AA86D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF8CBA731B465BFD00AA86D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF8CBA721B465BFD00AA86D4 /* Komame.app */,
+				CF8CBA861B465BFD00AA86D4 /* KomameTests.xctest */,
+				CF8CBA911B465BFD00AA86D4 /* KomameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF8CBA741B465BFD00AA86D4 /* Komame */ = {
+			isa = PBXGroup;
+			children = (
+				CF8CBAA81B466E0400AA86D4 /* Komame-Bridging-Header.h */,
+				CF8CBA751B465BFD00AA86D4 /* AppDelegate.swift */,
+				CF8CBA771B465BFD00AA86D4 /* ViewController.swift */,
+				CF8CBA791B465BFD00AA86D4 /* Main.storyboard */,
+				CF8CBA7C1B465BFD00AA86D4 /* Assets.xcassets */,
+				CF8CBA7E1B465BFD00AA86D4 /* LaunchScreen.storyboard */,
+				CF8CBA811B465BFD00AA86D4 /* Info.plist */,
+			);
+			path = Komame;
+			sourceTree = "<group>";
+		};
+		CF8CBA891B465BFD00AA86D4 /* KomameTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF8CBA8A1B465BFD00AA86D4 /* KomameTests.swift */,
+				CF8CBA8C1B465BFD00AA86D4 /* Info.plist */,
+			);
+			path = KomameTests;
+			sourceTree = "<group>";
+		};
+		CF8CBA941B465BFD00AA86D4 /* KomameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF8CBA951B465BFD00AA86D4 /* KomameUITests.swift */,
+				CF8CBA971B465BFD00AA86D4 /* Info.plist */,
+			);
+			path = KomameUITests;
+			sourceTree = "<group>";
+		};
+		CF8CBAA71B466D4E00AA86D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF8CBAAB1B466F2600AA86D4 /* FBSDKLoginKit.framework */,
+				CF8CBAA51B466CF200AA86D4 /* FBSDKCoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF8CBA711B465BFD00AA86D4 /* Komame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8CBA9A1B465BFD00AA86D4 /* Build configuration list for PBXNativeTarget "Komame" */;
+			buildPhases = (
+				CF8CBA6E1B465BFD00AA86D4 /* Sources */,
+				CF8CBA6F1B465BFD00AA86D4 /* Frameworks */,
+				CF8CBA701B465BFD00AA86D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Komame;
+			productName = Komame;
+			productReference = CF8CBA721B465BFD00AA86D4 /* Komame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF8CBA851B465BFD00AA86D4 /* KomameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8CBA9D1B465BFD00AA86D4 /* Build configuration list for PBXNativeTarget "KomameTests" */;
+			buildPhases = (
+				CF8CBA821B465BFD00AA86D4 /* Sources */,
+				CF8CBA831B465BFD00AA86D4 /* Frameworks */,
+				CF8CBA841B465BFD00AA86D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF8CBA881B465BFD00AA86D4 /* PBXTargetDependency */,
+			);
+			name = KomameTests;
+			productName = KomameTests;
+			productReference = CF8CBA861B465BFD00AA86D4 /* KomameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF8CBA901B465BFD00AA86D4 /* KomameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8CBAA01B465BFD00AA86D4 /* Build configuration list for PBXNativeTarget "KomameUITests" */;
+			buildPhases = (
+				CF8CBA8D1B465BFD00AA86D4 /* Sources */,
+				CF8CBA8E1B465BFD00AA86D4 /* Frameworks */,
+				CF8CBA8F1B465BFD00AA86D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF8CBA931B465BFD00AA86D4 /* PBXTargetDependency */,
+			);
+			name = KomameUITests;
+			productName = KomameUITests;
+			productReference = CF8CBA911B465BFD00AA86D4 /* KomameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF8CBA6A1B465BFD00AA86D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Little Bean Labs";
+				TargetAttributes = {
+					CF8CBA711B465BFD00AA86D4 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					CF8CBA851B465BFD00AA86D4 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CF8CBA711B465BFD00AA86D4;
+					};
+					CF8CBA901B465BFD00AA86D4 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CF8CBA711B465BFD00AA86D4;
+					};
+				};
+			};
+			buildConfigurationList = CF8CBA6D1B465BFD00AA86D4 /* Build configuration list for PBXProject "Komame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF8CBA691B465BFD00AA86D4;
+			productRefGroup = CF8CBA731B465BFD00AA86D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF8CBA711B465BFD00AA86D4 /* Komame */,
+				CF8CBA851B465BFD00AA86D4 /* KomameTests */,
+				CF8CBA901B465BFD00AA86D4 /* KomameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF8CBA701B465BFD00AA86D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8CBA7D1B465BFD00AA86D4 /* Assets.xcassets in Resources */,
+				CF8CBA7B1B465BFD00AA86D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8CBA841B465BFD00AA86D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8CBA8F1B465BFD00AA86D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF8CBA6E1B465BFD00AA86D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8CBA781B465BFD00AA86D4 /* ViewController.swift in Sources */,
+				CF8CBA761B465BFD00AA86D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8CBA821B465BFD00AA86D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8CBA8B1B465BFD00AA86D4 /* KomameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8CBA8D1B465BFD00AA86D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8CBA961B465BFD00AA86D4 /* KomameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF8CBA881B465BFD00AA86D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF8CBA711B465BFD00AA86D4 /* Komame */;
+			targetProxy = CF8CBA871B465BFD00AA86D4 /* PBXContainerItemProxy */;
+		};
+		CF8CBA931B465BFD00AA86D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF8CBA711B465BFD00AA86D4 /* Komame */;
+			targetProxy = CF8CBA921B465BFD00AA86D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF8CBA791B465BFD00AA86D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF8CBA7A1B465BFD00AA86D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF8CBA7E1B465BFD00AA86D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF621031B4673250090B7F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF8CBA981B465BFD00AA86D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF8CBA991B465BFD00AA86D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF8CBA9B1B465BFD00AA86D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = Komame/Frameworks;
+				INFOPLIST_FILE = Komame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.little-bean-labs.Komame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Komame/Komame-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF8CBA9C1B465BFD00AA86D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = Komame/Frameworks;
+				INFOPLIST_FILE = Komame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.little-bean-labs.Komame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Komame/Komame-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CF8CBA9E1B465BFD00AA86D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KomameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.little-bean-labs.KomameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Komame.app/Komame";
+			};
+			name = Debug;
+		};
+		CF8CBA9F1B465BFD00AA86D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KomameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.little-bean-labs.KomameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Komame.app/Komame";
+			};
+			name = Release;
+		};
+		CF8CBAA11B465BFD00AA86D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KomameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.little-bean-labs.KomameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Komame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF8CBAA21B465BFD00AA86D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KomameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.little-bean-labs.KomameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Komame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF8CBA6D1B465BFD00AA86D4 /* Build configuration list for PBXProject "Komame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8CBA981B465BFD00AA86D4 /* Debug */,
+				CF8CBA991B465BFD00AA86D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8CBA9A1B465BFD00AA86D4 /* Build configuration list for PBXNativeTarget "Komame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8CBA9B1B465BFD00AA86D4 /* Debug */,
+				CF8CBA9C1B465BFD00AA86D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8CBA9D1B465BFD00AA86D4 /* Build configuration list for PBXNativeTarget "KomameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8CBA9E1B465BFD00AA86D4 /* Debug */,
+				CF8CBA9F1B465BFD00AA86D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8CBAA01B465BFD00AA86D4 /* Build configuration list for PBXNativeTarget "KomameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8CBAA11B465BFD00AA86D4 /* Debug */,
+				CF8CBAA21B465BFD00AA86D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF8CBA6A1B465BFD00AA86D4 /* Project object */;
+}
